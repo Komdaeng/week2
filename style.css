@@ -1,125 +1,23 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #4fb9c9;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 40px auto;
-    background-color: #a3f1ff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Header Section */
-  header {
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #333;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 36px;
-  }
-  
-  header p {
-    font-size: 16px;
-    color: #555;
-  }
-  
-  /* About Me Section */
-  .about {
-    padding: 20px 0;
+img{
     
-  }
-  
-  .about h2 {
-    font-size: 24px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-  }
-  
-  .about p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #666;
-  }
-  
-  /* Profile Section */
-  .profile {
-    padding: 20px 0;
-  }
-  
-  .profile table {
-    width: 100%;
-  }
-  
-  .profile img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-  }
-  
-  .profile td {
-    padding-left: 20px;
-    padding-right: 20px;
-    vertical-align: top;
-  }
-  
-  /* Skills Section */
-  .skills h2 {
-    font-size: 24px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-  }
-  
-  .skills table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .skills th, .skills td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: center;
-  }
-  
-  /* Contact Section */
-  .contact form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact label {
-    margin-top: 10px;
-  }
-  
-  .contact input, .contact textarea {
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  /* Footer Section */
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    margin-top: 20px;
-  }
-  
-  footer a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+hr {
+    border-style: none solid dotted dashed;
+    height: 10px;
+    border-width: 4px;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 20px;
+}
